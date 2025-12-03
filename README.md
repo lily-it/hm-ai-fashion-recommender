@@ -72,3 +72,23 @@ The system consists of three main components:
 ```bash
 git clone <repository-url>
 cd hm-fashion-recommender
+2. Frontend Setup
+cd frontend
+npm install
+
+3. Backend Setup
+cd backend
+pip install -r requirements.txt
+
+4. Machine Learning Engine Setup
+cd ml_engine
+pip install -r requirements.txt
+
+▶️ Running the Application
+Start Backend
+cd backend
+uvicorn main:app --reload
+
+Start Frontend
+cd frontend
+npm run dev
