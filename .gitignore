@@ -1,0 +1,40 @@
+# -------------------------
+# PYTHON (FASTAPI BACKEND)
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+*.env
+backend/venv/
+venv/
+.env
+.env.local
+*.pkl
+backend/venv/
+# -------------------------
+# NEXTJS (FRONTEND)
+# -------------------------
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+frontend/out/
+out/
+
+# -------------------------
+# OS / EDITOR FILES
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# DATASETS (CRITICAL)
+# -------------------------
+# Ignore the entire dataset folder so images aren't uploaded
+dataset/
