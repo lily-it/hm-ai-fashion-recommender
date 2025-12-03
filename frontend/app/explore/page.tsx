@@ -1,13 +1,14 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import FilterSidebar from "@/components/FilterSidebar";
 import ProductCard from "@/components/ProductCard";
 import { fetchFilteredProducts } from "@/lib/api";
-import type { Product } from "@/lib/types";
+import type { Product } from "@/lib/api"; // ✅ FIX: Import from api, not types
 
-export default function ExplorePage() {
+// 1. Move logic to a child component
+function ExploreContent() {
   const searchParams = useSearchParams();
 
   // Read initial search from URL (?search=shirt)
@@ -21,7 +22,7 @@ export default function ExplorePage() {
   const [loading, setLoading] = useState(false);
 
   // ------------------------------------------
-  // ⭐ FIXED: Sync URL -> State (search param)
+  // Sync URL -> State (search param)
   // ------------------------------------------
   useEffect(() => {
     const urlSearch = searchParams.get("search") || "";
@@ -55,9 +56,8 @@ export default function ExplorePage() {
 
   return (
     <div className="p-6 grid grid-cols-12 gap-6">
-
       {/* Sidebar */}
-      <div className="col-span-3">
+      <div className="col-span-12 md:col-span-3">
         <FilterSidebar
           category={category}
           setCategory={setCategory}
@@ -69,8 +69,7 @@ export default function ExplorePage() {
       </div>
 
       {/* Main Content */}
-      <div className="col-span-9">
-
+      <div className="col-span-12 md:col-span-9">
         {/* Search box */}
         <input
           type="text"
@@ -89,7 +88,7 @@ export default function ExplorePage() {
 
         {/* Product Grid */}
         {!loading && (
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {products.length > 0 ? (
               products.map((p) => (
                 <ProductCard key={p.article_id} product={p} />
@@ -103,5 +102,14 @@ export default function ExplorePage() {
         )}
       </div>
     </div>
+  );
+}
+
+// 2. Wrap the content in Suspense (Fixes Vercel Error)
+export default function ExplorePage() {
+  return (
+    <Suspense fallback={<div className="p-10 text-center">Loading Explore Page...</div>}>
+      <ExploreContent />
+    </Suspense>
   );
 }
