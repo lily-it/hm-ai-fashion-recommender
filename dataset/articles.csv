@@ -1,0 +1,11 @@
+article_id,name,description,price,category,image_url
+1,Cotton Oversized Jacket,A stylish oversized jacket made from soft cotton.,2499,Jackets,/images/jacket1.jpg
+2,Classic White T-Shirt,A timeless white t-shirt that goes with everything.,999,T-Shirts,/images/tshirt1.jpg
+3,Denim Jeans,Comfortable denim jeans with a modern fit.,1999,Jeans,/images/jeans1.jpg
+4,Sneakers,Trendy sneakers perfect for everyday wear.,2999,Shoes,/images/sneakers1.jpg
+5,Floral Maxi Dress,A beautiful floral dress ideal for summer outings.,3499,Dresses,/images/dress1.jpg
+6,Leather Backpack,A durable leather backpack for all your essentials.,4999,Bags,/images/bag1.jpg
+7,Wool Scarf,A warm wool scarf to keep you cozy in winter.,1499,Accessories,/images/scarf1.jpg
+8,Sporty Hoodie,A comfortable hoodie for casual wear and workouts.,1999,Hoodies,/images/hoodie1.jpg
+9,Chino Shorts,Stylish chino shorts for a relaxed summer look.,1499,Shorts,/images/shorts1.jpg
+10,Graphic Sweatshirt,A cool graphic sweatshirt for a laid-back vibe.,2499,Sweatshirts,/images/sweatshirt1.jpg

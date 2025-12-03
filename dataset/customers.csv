@@ -1,0 +1,11 @@
+customer_id,name,email,gender,age,loyalty_score
+1,John Doe,john.doe@example.com,Male,28,150
+2,Jane Smith,jane.smith@example.com,Female,34,200
+3,Bob Johnson,bob.johnson@example.com,Male,45,120
+4,Alice Williams,alice.williams@example.com,Female,22,180
+5,Charlie Brown,charlie.brown@example.com,Male,30,160
+6,Emily Davis,emily.davis@example.com,Female,27,190
+7,Michael Wilson,michael.wilson@example.com,Male,38,140
+8,Sarah Taylor,sarah.taylor@example.com,Female,29,170
+9,David Anderson,david.anderson@example.com,Male,33,110
+10,Laura Thomas,laura.thomas@example.com,Female,26,130
