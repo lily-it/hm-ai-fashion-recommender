@@ -65,9 +65,9 @@ The system consists of three main components:
 - Docker (optional)
 
 ---
-
 ## 🔧 Installation
 
+```bash
 # 1. Clone the Repository
 git clone <repository-url>
 cd hm-fashion-recommender
