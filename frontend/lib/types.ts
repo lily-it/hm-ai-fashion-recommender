@@ -6,3 +6,4 @@ export interface Product {
   image_url: string;
   score?: number;
 }
+ // i am done
