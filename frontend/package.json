@@ -16,7 +16,7 @@
     "axios": "latest",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.25",
-    "next": "latest",
+    "next": "15.5.8",
     "react": "latest",
     "react-dom": "latest",
     "react-hot-toast": "^2.6.0",
