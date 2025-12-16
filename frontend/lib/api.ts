@@ -97,7 +97,7 @@ export const fetchProducts = async ({
 // WISHLIST
 export const addToWishlist = async (customerId: string, articleId: string) => {
   try {
-    return await axios.post(`${API_URL}/wishlist/${customerId}/${articleId}`);
+     return await axios.post(`${API_URL}/wishlist/add/${customerId}/${articleId}`);
   } catch (error) {
     console.error("Error adding to wishlist:", error);
   }
@@ -114,4 +114,5 @@ export const getWishlist = async (customerId: string) => {
 };
 
 // ✅ FIX: Export alias so 'fetchFilteredProducts' works too
+
 export const fetchFilteredProducts = fetchProducts;
