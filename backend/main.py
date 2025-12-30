@@ -11,9 +11,9 @@ app = FastAPI(
     description="Personalized fashion recommendation system powered by machine learning",
     version="1.0.0",
     contact={
-        "name": "Priyanshu (showlittlemercy)",
-        "email": "showlittlemercy@gmail.com",
-        "url": "https://github.com/showlittlemercy"
+        "name": "Dixika (lily-it)",
+        "email": "dixika2001@gmail.com",
+        "url": "https://github.com/lily-it"
     }
 )
 
