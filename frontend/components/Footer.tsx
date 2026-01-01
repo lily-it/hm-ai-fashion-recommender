@@ -60,12 +60,12 @@ const Footer = () => {
   <p className="text-xs text-gray-500 text-center md:text-left">
     © 2025 H&M Fashion Recommender. Built with ❤️ by{" "}
     <a
-      href="https://github.com/showlittlemercy"
+      href="https://github.com/lily-it"
       target="_blank"
       rel="noopener noreferrer"
       className="underline hover:text-white"
     >
-      Priyanshu (@showlittlemercy)
+      DIXIKA
     </a>.
   </p>
 
@@ -104,3 +104,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
