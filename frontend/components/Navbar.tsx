@@ -109,6 +109,7 @@ const Navbar: React.FC = () => {
                   className="text-sm font-medium text-gray-600 hover:text-red-600 transition"
                 >
                   LinkedIn
+                </a>
               </div>
 
               {/* Wishlist */}
