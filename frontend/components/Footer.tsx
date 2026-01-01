@@ -65,13 +65,13 @@ const Footer = () => {
       rel="noopener noreferrer"
       className="underline hover:text-white"
     >
-      DIXIKA
+      Dixika Thakur (@lily-it)
     </a>.
   </p>
 
   <div className="flex space-x-6 text-gray-400">
     <a
-      href="https://github.com/showlittlemercy"
+      href="https://github.com/lily-it"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:text-white transition-colors"
@@ -80,21 +80,12 @@ const Footer = () => {
     </a>
 
     <a
-      href="https://www.linkedin.com/in/priyanshu-thakur-a47774360/"
+      href="https://www.linkedin.com/in/dixika-thakur-928b20369/"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:text-white transition-colors"
     >
       LinkedIn
-    </a>
-    <span className="text-gray-300">|</span>
-    <a
-      href="https://www.instagram.com/showlittlemercy/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-white transition-colors"
-    >
-      Instagram
     </a>
   </div>
 </div>
@@ -104,4 +95,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
