@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
               {/* Social Links (Hidden on small screens) */}
               <div className="hidden lg:flex items-center space-x-4">
                 <a
-                  href="https://github.com/showlittlemercy"
+                  href="https://github.com/lily-it"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-medium text-gray-600 hover:text-red-600 transition"
@@ -103,22 +103,12 @@ const Navbar: React.FC = () => {
                 </a>
                 <span className="text-gray-300">|</span>
                 <a
-                  href="https://www.linkedin.com/in/priyanshu-thakur-a47774360/"
+                  href="https://www.linkedin.com/in/dixika-thakur-928b20369/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-medium text-gray-600 hover:text-red-600 transition"
                 >
                   LinkedIn
-                </a>
-                <span className="text-gray-300">|</span>
-                <a
-                  href="https://www.instagram.com/showlittlemercy/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm font-medium text-gray-600 hover:text-red-600 transition"
-                >
-                  Instagram
-                </a>
               </div>
 
               {/* Wishlist */}
